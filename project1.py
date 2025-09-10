@@ -1,5 +1,6 @@
 name = input("---> what is your name?")
 print(f"Hello!{name}, welcome to comp thinking!")
+input("")
 print("Today we will make a short story with your help")
 print("")
 print("")
