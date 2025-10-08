@@ -18,12 +18,12 @@ if answer == "Yes":
 elif answer == "No":
     unfunny_points += 1
 answer = input("do you laugh at yourself?")
-if answer == "Yes":
+if answer == "yes":
     funny_points += 1
 elif answer == "No":
     unfunny_points += 1
 answer = input("can you read a room?")
-if answer == "Yes":
+if answer == "yes":
     funny_points += 1
 elif answer == "No":
     unfunny_points += 1
@@ -34,7 +34,7 @@ if funny_points > unfunny_points:
     print("your very funny")
 elif unfunny_points > funny_points:
     print("your not very funny")
-if answer == unfunny_points and funny_points > 3 
+if unfunny_points < 2 and funny_points > 3:
     print(" you are REALLY funny!")
 if answer == "a" or answer == "b":
     funny_points +=1
