@@ -64,6 +64,10 @@ s2 = create_sprite("cardinal", -100, -100)
 message1 = create_sprite("alien",-200,200)
 message1.color("red")
 message1.write("Roba Gezahegn",font = ("Arial", 40, "normal"))
+message2.color("blue")
+message2.write("I love coding!",font = ("Arial", 40, "normal"))
+
+
 message1.hideturtle()
 
 
