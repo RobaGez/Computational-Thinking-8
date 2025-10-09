@@ -52,24 +52,26 @@ window.tracer(0)
 ######################################################################
 # https://en.wikipedia.org/wiki/Web_colors#Extended_colors
 # Section 2 - Your code
-set_background("fall")
-
+set_background("winter")
+# these are the squares behind the sprites
 draw_rectangle("black", 100, 100, 200, 200)
 draw_rectangle("white", -100, 100, 200, 200)
 draw_rectangle("red", 100, -100, 200, 200)
 draw_rectangle("blue",-100, -100, 200, 200)
+# these are my sprites
 s1 = create_sprite("cade-cunningham", 100, 100)
 s2 = create_sprite("cardinal", -100, -100)
+s2 = create_sprite("download", 100, -100)
+s2 = create_sprite("pistons", -100, 100)
 
 message1 = create_sprite("alien",-200,200)
 message1.color("red")
+# this is where my name is
 message1.write("Roba Gezahegn",font = ("Arial", 40, "normal"))
-message2.color("blue")
-message2.write("I love coding!",font = ("Arial", 40, "normal"))
-
-
+message1 = create_sprite("alien",-200,-200)
+message1.write("I love sports!",font = ("Arial", 40, "normal"))
 message1.hideturtle()
-
+message1 = create_sprite("alien",3000,-200)
 
 ######################################################################
 
